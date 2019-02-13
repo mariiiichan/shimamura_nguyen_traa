@@ -1,0 +1,1024 @@
+@charset "UTF-8";
+
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	background-color: gray;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 960px;
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+/*Layout*/
+
+header
+{
+	background-color: black;
+	height: 300px;
+}
+
+#articles
+{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+#articleLeft
+{
+	display: flex;
+	flex-direction: row;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #e8edeb;
+	padding-right: 45px;
+	padding-left: 45px;
+}
+
+#imageLeft
+{
+	background-color: black;
+	width: 220px;
+	height: 220px;
+	margin-right: 45px;
+	border-radius: 50%;
+}
+
+#articleContentLeft
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+}
+
+#articleTitleLeft
+{
+	width: 500px;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#articleTextLeft
+{
+	width: 600px;
+}
+
+#articleTextRod
+{
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+	font-family: "Arial";
+}
+
+#Rod
+{
+	height: 220px;
+}
+
+#imageRod
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 65px;
+}
+
+#imageRodLeft
+{
+	background-color: black;
+	width: 190px;
+	height: 70px;
+	margin-right: 45px;
+	margin-top: 15px;
+}
+
+#articleRight
+{
+	display: flex;
+	flex-direction: row;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 45px;
+	padding-left: 45px;
+	background-color: #5b7d78;
+}
+
+#imageRight
+{
+	background-color: black;
+	width: 220px;
+	height: 220px;
+	margin-left: 45px;
+	margin-left: auto;
+	border-radius: 50%;
+}
+
+#articleContentRight
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#articleTitleRight
+{
+	width: 500px;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: auto;
+}
+
+#articleTextRight
+{
+	width: 600px;
+}
+
+#localBusinesses
+{
+	background-color: #2e2f19;
+	height: 115px;
+	margin-bottom: 80px;
+}
+
+#businesses
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 80px;
+	height: 750px;
+	background-color: #ebf0f6;
+}
+
+#logo
+{
+	background-color: black;
+	width: 138px;
+	height: 60px;
+	margin-bottom: 65px;
+}
+
+#compInfo
+{
+	background-color: black;
+	width: 138px;
+	height: 560px;
+}
+
+#exeVol
+{
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	width: 960px;
+}
+
+#executives
+{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+	margin-left: 30px;
+	margin-right: 30px;
+	background-color: yellow;
+	height: 100px;
+	margin-bottom: 40px;
+}
+
+#exeTitle
+{
+	background-color: black;
+	height: 20px;
+	width: 150px;
+	margin-bottom: 10px;
+}
+
+#exeTitle h3
+{
+	margin:0;
+	padding: 0;
+	color: white;
+}
+
+#exeNames
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 850px;
+	height: 100px;
+	margin-left:50px;
+	margin-top: 20px;
+	background-color: red;
+}
+
+#exeNameBox
+{
+	width: 100px;
+	height: 40px;
+	background-color: black;
+	color: white;
+}
+
+#exePosition, #exeNameBox p
+{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#volunteer
+{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	height: 290px;
+	background-color: pink;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#volTitle
+{
+	width: 313px;
+	height: 20px;
+	margin-bottom: 20px;
+	background-color: black;
+}
+
+#volTitle h3
+{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+#volNames
+{
+	width: 850px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: auto;
+}
+
+#volNameBox
+{
+	background-color: black;
+	width: 100px;
+	height: 100px;
+}
+
+#volPosition, #volNameBox p
+{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: white;
+}
+
+footer
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+}
+
+#extraInfo
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+#membership
+{
+	background-color: blue;
+	height: 610px;
+	width: 480px;
+}
+
+#membership p
+{
+	color: white;
+}
+
+#fundraising
+{
+	background-color: red;
+	height: 610px;
+	width: 480px;
+}
+
+/*Footer Nav*/
+
+#footerLogoNav
+{
+	display: flex;
+	flex-direction: row;
+	height: 100px;
+	background-color: black;
+	height: 120px;
+}
+
+#footerLogo
+{
+	background-color: white;
+	width: 75px;
+	height: 75px;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+#footerNav
+{
+	height: 60px;
+	width: 600px;
+	background-color: black;
+	margin-top: 30px;
+	margin-left: auto;
+}
+
+#footNavigation
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#footNavigation li a {
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 10px;
+  	font-size: 15px;
+  	text-decoration: none;
+  	font-family: "Arial";
+}
+
+/*INDEX*/
+#articleTextLeft p
+{
+	font-size: 15px;
+	font-family: "Arial";
+	line-height: 18px;
+	letter-spacing: 0.5px;
+}
+
+#articleTextRight p
+{
+	color: white;
+	font-size: 15px;
+	font-family: "Arial";
+	line-height: 18px;
+	letter-spacing: 0.5px;
+}
+
+/*The News*/
+#articleTitleLeft h2
+{
+	font-family: 'Arial';
+	font-size: 17px;
+	color: #12130c;
+	padding:0px;
+	margin:0px;
+}
+
+#articleTitleRight h2
+{
+	font-family: 'Arial';
+	font-size: 17px;
+	color: #e4e3e4;
+	padding:0px;
+	margin:0px;
+}
+
+#articleTitleLeft h3, #articleTitleRight h3
+{
+	font-family: 'Arial';
+	font-size: 16px;
+	color: blue;
+	padding:0px;
+	margin:0px;
+}
+
+#articleTitleRight h2, #articleTitleRight h3
+{
+	 text-align: right;
+}
+
+#localBusinesses h2
+{
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+	font-family: 'Arial';
+	font-size: 30px;
+	font-weight: normal;
+}
+
+#compInfo p
+{
+	color: white;
+	font-family: 'Arial';
+	font-weight: normal;
+}
+
+/*ABOUT*/
+#aboutContainer
+{
+	margin: 0 auto;
+	width: 960px;
+	background-color: white;
+}
+
+#about
+{
+	background-color: lightblue;
+}
+
+#about h2
+{
+	background-color: black;
+	color: white;
+	width: 300px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#about h3
+{
+	margin-left: 40px;
+}
+
+#aboutTRAA
+{
+	margin-right: 40px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+#aboutNav
+{
+	width: 600px;
+	background-color: red;
+}
+
+#aboutImg
+{
+	background-color: black;
+	width: 284px;
+	height: 184px;
+}
+
+/*More about*/
+#moreAbout
+{
+	background-color: yellow;
+}
+
+#moreAbout h2
+{
+	background-color: black;
+	color: white;
+	width: 300px;
+	padding-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#moreAboutText
+{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+/*Newsletter*/
+#newsletter
+{
+	background-color: pink;
+	padding-bottom: 100px;
+}
+
+#newsletter h2
+{
+	background-color: black;
+	color: white;
+	width: 300px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#evolved
+{
+	background-color: blue;
+}
+
+#newsletterMem
+{
+	background-color: purple;
+}
+
+/*Stylize years*/
+#nlMemStroll
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 834px;
+}
+
+#Row1, #Row3, #Row5, #Row6, #Row7,#Row8
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 144px;
+	margin-top: 31px;
+}
+
+.yearTitle
+{
+	color: white;
+	text-align: center;
+	font-size: 45px;
+	padding: 0;
+}
+
+#y-2011, #y-2010
+{
+
+	background-color: blue;
+	width: 400px;
+	height: 144px;
+}
+
+#Row2-2009
+{
+	background-color: blue;
+	width: 834px;
+	height: 144px;
+	margin-top: 31px;
+}
+
+#y-2008left, #y-1986
+{
+	width: 185px;
+	background-color: gray;
+}
+
+#y-2008
+{
+	width: 400px;
+	background-color: gray;
+}
+
+#y-2008right
+{
+	width: 185px;
+	background-color: gray;
+}
+
+#Row4-2007
+{
+	background-color: blue;
+	width: 834px;
+	height: 144px;
+	margin-top: 31px;
+}
+
+#y-2006
+{
+	width: 351px;
+	background-color: gray;
+}
+
+#y-2005
+{
+	width: 212px;
+	background-color: gray;
+}
+
+#y-2004, #y-2003, #y-1996
+{
+	width: 212px;
+	background-color: red;
+}
+
+#y-2001    
+{
+	width: 593px;
+	background-color: blue;
+}
+
+#y-2000
+{
+	background-color: red;
+	width: 402px;
+}
+
+#y-1999
+{
+	background-color: blue;
+	width: 402px;
+}
+
+#y-1997
+{
+	background-color: yellow;
+	width: 353px;
+}
+
+
+
+
+/*LINKS*/
+#linksContainer
+{
+	margin: 0 auto;
+	width: 960px;
+	background-color: white;
+}
+
+#linksTitle
+{
+	background-color: #e6e6e6;
+	width: 960px;
+	height: 100px;
+}
+
+#linksTitle h2
+{
+	text-align: center;
+	font-size: 23px;
+	padding-top: 22px;
+	margin: 0;
+}
+
+#linksTitle h3
+{
+	text-align: center;
+	margin: 0;
+	line-height: 30px;
+}
+
+#linksList
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 110px;
+	margin-right: 110px;
+	margin-top: 20px;
+}
+
+#note
+{
+	margin-left: 110px;
+	margin-right: 110px;
+	background-color: #e6e6e6;
+	height: 180px;
+	margin-bottom: 60px;
+	margin-top: 20px;
+}
+
+#note h2
+{
+	text-align: center;
+	font-size: 23px;
+	padding-top: 10px;
+	margin: 0;
+}
+
+#note p
+{
+	text-align: center;
+}
+
+/*Nav stylize*/
+
+li
+{
+	line-height: 20px;
+	font-size: 17px;
+}
+
+
+/*MARI'S CODE*/
+#mainNav
+{
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 50px 0;
+  box-shadow: 0px 5px 0px #dedede;
+}
+#mainNav ul
+{
+  list-style: none;
+  text-align: center;
+}
+#mainNav ul li
+ {
+  display: inline-block;
+}
+#mainNav ul li a
+{
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+#mainNav ul li a,
+#mainNav ul li a:after,
+#mainNav ul li a:before 
+{
+  transition: all .5s;
+}
+#mainNav ul li a:hover
+ {
+  color: #555;
+}
+
+
+/* stroke */
+#mainNav.stroke ul li a,
+#mainNav.fill ul li a {
+  position: relative;
+}
+#mainNav.stroke ul li a:after,
+#mainNav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+#mainNav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+#mainNav.fill ul li a {
+  transition: all 2s;
+}
+
+#mainNav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+#mainNav.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+#mainNav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+
+#logo
+{
+	position: absolute;
+	top: 60px;
+	left: 480px;
+
+}
+
+
+#firstName
+{
+	width: 150px;
+	height: 20px;
+	background-color: black;
+	margin-left: 30px;
+	top: 250px;
+	position: absolute;
+}
+
+#firstNameBox
+{
+	width: 200px;
+	height: 20px;
+	background-color: black;
+	margin-left: 30px;
+	top: 290px;
+	position: absolute;
+}
+
+#lastName
+{
+	width: 150px;
+	height: 20px;
+	background-color: black;
+	margin-left: 30px;
+	top: 250px;
+	position: absolute;
+	left: 270px;
+}
+
+#lastNameBox
+{
+	width: 200px;
+	height: 20px;
+	background-color: black;
+	margin-left: 30px;
+	top: 290px;
+	position: absolute;
+	left: 270px;
+}
+
+#phone
+{
+	width: 150px;
+	height: 20px;
+	background-color: black;
+	margin-left: 30px;
+	top: 350px;
+	position: absolute;
+	left: 270px;
+}
+	
+#phoneBox
+{
+	width: 200px;
+	height: 20px;
+	background-color: black;
+	margin-left: 30px;
+	top: 390px;
+	position: absolute;
+	left: 270px;
+}
+
+#email
+{
+	width: 150px;
+	height: 20px;
+	background-color: black;
+	margin-left: 30px;
+	top: 350px;
+	position: absolute;
+}
+
+#emailBox
+{
+	width: 200px;
+	height: 20px;
+	background-color: black;
+	margin-left: 30px;
+	top: 390px;
+	position: absolute;
+}
+
+#title
+{
+	width: 150px;
+	height: 20px;
+	background-color: black;
+	margin-left: 30px;
+	top: 445px;
+	position: absolute;
+}
+
+#titleBox
+{
+	width: 100px;
+	height: 10px;
+	background-color: black;
+	padding-left: 30px;
+}
+
+#message
+{
+	width: 70px;
+	height: 10px;
+	background-color: black;
+	padding-left: 30px;
+}
+
+#messageBox
+{
+	width: 70px;
+	height: 100px;
+	color: #666;
+	padding-left: 30px;
+}
+
+#traaMail
+{
+	width: 100px;
+	height: 200px;
+	background-color: black;
+	margin-right: 15px;
+}
+
+#membership
+{
+	padding-left: 30px;
+	background-color: black;
+}
+
+#membershipTitle
+{
+	width: 30px;
+	height: 10px;
+	background-color: black;
+	padding-left: 50px;
+}
+
+#membershipPromo
+{
+	width: 60px;
+	height: 30px;
+	background-color: black;
+	padding-left: 50px;
+}
+
+#membershipDetails
+{
+	width: 30px;
+	height: 10px;
+	background-color: black;
+	padding-left: 50px;
+}
+
+#fundraising
+{
+	margin-right: 15px;
+	background-color: black;
+}
+
+#fundraisingTitle
+{
+	width: 30px;
+	height: 10px;
+	background-color: black;
+	padding-right: 40px;
+}
+
+#promoImg1
+{
+	width: 20px;
+	padding-right: 50px;
+	background-color: black;
+}
+
+#promoImg2
+{
+	width: 20px;
+	background-color: black;
+	padding-right: 60px;
+}
+
+#promoImg3
+{
+	width: 20px;
+	background-color: black;
+	padding-right: 30px;
+}
+
+#fundraisingDetails
+{
+
+	background-color: black;
+	padding-right: 40px;
+}
+
+#footerNav
+{
+	width: 100px;
+	background-color: black;
+
+}
